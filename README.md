@@ -79,6 +79,7 @@ SELECT Segment, SUM(Sales) AS Sales_by_segment
 FROM Supperstore_Customer
 GROUP BY Segment
 ORDER BY Sales_by_segment DESC;
+
 ```
 
 ### Key Findings/Results
