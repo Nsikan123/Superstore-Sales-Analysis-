@@ -60,11 +60,6 @@ FROM Supperstore_Customer
 GROUP BY State, City
 ORDER BY Sales_by_location DESC;
 
-
-![Sales by state and region](https://github.com/user-attachments/assets/094c4490-f2dc-4d41-8118-bf91d8581b66)
-
-
-
 SELECT top 10 Sub_Category, SUM(Profit) AS TotalProfit
 FROM Supperstore_Customer
 GROUP BY Sub_Category
